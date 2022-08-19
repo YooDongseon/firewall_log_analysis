@@ -3,7 +3,7 @@ import time
 import ipaddress
 import macaddress
 
-conn = pymysql.connect(host='127.0.0.1', user='root', password='root', db='mycompany', charset='utf8')
+conn = pymysql.connect(host='127.0.0.1', user='....', password='....', db='mycompany', charset='utf8')
 cur = conn.cursor()
 
 attacker_mac = int(macaddress.MAC('f8:ff:c2:32:68:d2'))

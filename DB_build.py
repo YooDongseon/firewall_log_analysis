@@ -5,7 +5,7 @@ from datetime import datetime
 from datetime import timedelta
 import time
 
-conn = pymysql.connect(host='127.0.0.1', user='root', password='root', db='mycompany', charset='utf8')
+conn = pymysql.connect(host='127.0.0.1', user='....', password='....', db='mycompany', charset='utf8')
 cur = conn.cursor()
 cur.execute("CREATE TABLE firewall(Access_Time BIGINT, Source_IP BIGINT, Source_MAC BIGINT, Source_PORT INT,\
 Destination_IP BIGINT, Destination_MAC BIGINT, Destination_PORT INT, Size BIGINT)") # DB TABLE 최초 생성

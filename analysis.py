@@ -3,7 +3,7 @@ import ipaddress
 import macaddress
 import os
 
-conn = pymysql.connect(host='127.0.0.1', user='root', password='root', db='mycompany', charset='utf8')
+conn = pymysql.connect(host='127.0.0.1', user='....', password='....', db='mycompany', charset='utf8')
 cur = conn.cursor()
 
 sql1 = "SELECT DISTINCT Source_IP FROM firewall"
